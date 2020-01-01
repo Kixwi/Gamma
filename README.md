@@ -1,18 +1,10 @@
 
 
-<p align="center"><img src="https://github.com/Omega-Numworks/Omega-Design/blob/master/Omega-Banner.png" /></p>
-
-<p align="center">
-  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="cc by-nc-sa 4.0" src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg?labelColor=292929&logo=creative%20commons&style=for-the-badge" /></a>
-  <a href="https://github.com/Omega-Numworks/Omega/issues"><img alt="Issues" src="https://img.shields.io/github/issues/Omega-Numworks/Omega.svg?labelColor=292929&logo=git&style=for-the-badge" /></a>
-  </br>
-  <a href="https://join.slack.com/t/omeganumworks/shared_invite/enQtODI0NjU5NDU2MDUwLTRkODc1NDgzNmJkMzNlZGEyYWU2YzNlOWY4NWZlZjk1ZTM0YzY0ZjJjYTgyYzYwNDA1ZWZiYmUyMjA2MGU0ZDM"><img alt="Slack" src="https://img.shields.io/badge/Chat-Slack-blue?labelColor=292929&logo=slack&style=for-the-badge" /></a>
-  <a href="https://gitlab.com/joachim2lefournis/Omega/pipelines"><img alt="Pipeline" src="https://img.shields.io/gitlab/pipeline/joachim2lefournis/Omega/omega-master?labelColor=292929&logo=gitlab&style=for-the-badge" /></a>
-</p>
+Gamma
 
 ## About
 
-Omega is an extension to Numworks' Epsilon, the OS that runs on their calculator, which brings many features to it. Omega is for people who want to add features to the calculator, but cannot because they have been rejected by Numworks (and for reasons that are 100% understandable!). For example, there is no point in having a Dark Mode on the calculator, but it's fun, so we would add it into Omega!
+Gamma is a fork of Omega, an alternative OS for NumWorks calculators
 
 ## Some new features
 - Adding symbolic calculation back into the calculator
@@ -42,7 +34,7 @@ make MODEL=n0100 epsilon_flash
 
 Important: Don't forget the `--recursive` tag, because Omega relies on submodules.
 Also, you can change the number of processes that run in parallel during the build by changing the value of the `-j` flag.
-  
+
 </details>
 
 <details>
@@ -59,12 +51,12 @@ make epsilon_flash
 
 Important: Don't forget the `--recursive` tag, because Omega relies on submodules.
 Also, you can change the number of processes that run in parallel during the build by changing the value of the `-j` flag.
-  
+
 </details>
 
 <details>
   <summary><b>Bin files</b></summary>
-  
+
 These can be used to distribute Omega (so that it can be flashed by anyone with [Webdfu_Numworks](https://ti-planet.github.io/webdfu_numworks/)).
 
 ```
@@ -80,12 +72,12 @@ make USERNAME="" binpack -j8
 
 Important: Don't forget the `--recursive` tag, because Omega relies on submodules.
 Also, you can change the number of processes that run in parallel during the build by changing the value of the `-j` flag.
-  
+
 </details>
 
 <details>
   <summary><b>Web simulator</b></summary>
-  
+
 First, install emsdk :
 
 ```
@@ -163,4 +155,3 @@ We welcome contributions. For smaller changes just open a pull request straight 
 ## License
 
 NumWorks Epsilon is released under a [CC BY-NC-SA License](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode). NumWorks is a registered trademark.
-
