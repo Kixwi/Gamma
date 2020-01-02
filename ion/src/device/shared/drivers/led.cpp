@@ -11,10 +11,10 @@ namespace LED {
 using namespace Device::LED;
 using namespace Device::Regs;
 
-KDColor getColor() {
+/*KDColor getColor() {
   return sLedColor;
 }
-
+*/
 void setColor(KDColor c) {
   sLedColor = c;
 
